@@ -1,0 +1,68 @@
+{
+    "List": [
+        {
+            "CityCode": "1248991",
+            "CityName": "Colombo",
+            "lat": 6.9271,
+            "lon": 79.8612,
+            "Temp": "33.0",
+            "Status": "Clouds"
+        },
+        {
+            "CityCode": "1850147",
+            "CityName": "Tokyo",
+            "lat": 35.6762,
+            "lon": 139.6503,
+            "Temp": "8.6",
+            "Status": "Clear"
+        },
+        {
+            "CityCode": "2644210",
+            "CityName": "Liverpool",
+            "lat": 53.4084,
+            "lon": -2.9916,
+            "Temp": "16.5",
+            "Status": "Rain"
+        },
+        {
+            "CityCode": "2988507",
+            "CityName": "Paris",
+            "lat": 48.8566,
+            "lon": 2.3522,
+            "Temp": "22.4",
+            "Status": "Clear"
+        },
+        {
+            "CityCode": "2147714",
+            "CityName": "Sydney",
+            "lat": -33.8688,
+            "lon": 151.2093,
+            "Temp": "27.3",
+            "Status": "Rain"
+        },
+        {
+            "CityCode": "4930956",
+            "CityName": "Boston",
+            "lat": 42.3601,
+            "lon": -71.0589,
+            "Temp": "4.2",
+            "Status": "Mist"
+        },
+        {
+            "CityCode": "1796236",
+            "CityName": "Shanghai",
+            "lat": 31.2304,
+            "lon": 121.4737,
+            "Temp": "10.1",
+            "Status": "Clouds"
+        },
+        {
+            "CityCode": "3143244",
+            "CityName": "Oslo",
+            "lat": 59.9139,
+            "lon": 10.7522,
+            "Temp": "-3.9",
+            "Status": "Clear"
+        }
+    ]
+}
