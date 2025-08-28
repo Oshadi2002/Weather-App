@@ -1,0 +1,84 @@
+
+/* Card */
+.auth-card {
+  max-width: 800px;
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-image: url(../assest/login-background.jpg);
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+/* Image */
+.auth-card-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom center;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.auth-card-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Content */
+.auth-card-content {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.auth-card-content h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #faf8fd;
+}
+
+.auth-card-content p {
+  color: rgba(212, 211, 218, 0.5);
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.auth-card-content .btn {
+  width: 100%;
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.auth-card-content .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+  .auth-card {
+    max-width: 90%;
+    padding: 20px 0;
+  }
+  .auth-card-image {
+    display: none;
+  }
+  .auth-card-content {
+    padding: 30px 20px;
+  }
+}
